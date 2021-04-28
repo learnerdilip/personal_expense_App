@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Quicksand',
         AppBarTheme: AppBarTheme(
           textTheme: ThemeData.light().textTheme.copyWith(
-                title: TextStyle(fontFamily: 'Open Sans', fontSize: 20),
+                title: TextStyle(fontFamily: 'OpenSans', fontSize: 20),
               ),
         ),
       ),
@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(
           'Personal expenses App',
           style: TextStyle(
-            fontFamily: 'Open Sans',
+            fontFamily: 'OpenSans',
           ),
         ),
         actions: <Widget>[
