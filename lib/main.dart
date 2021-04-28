@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Personal expenses App',
+      theme: ThemeData(primarySwatch: Colors.purple),
       home: MyHomePage(),
     );
   }
@@ -24,7 +25,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-    
   final List<Transaction> _userTransactions = [
     Transaction(
       id: 't1',
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter app'),
+        title: Text('Personal expenses App'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.add),
